@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Gerenciador de Tarefas</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Gerenciador de Tarefas</string>
+    <string name="nav_header_subtitle">Cats House Development</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_tarefas_abertas">Tarefas Abertas</string>
+    <string name="menu_tarefas_concluidas">Tarefas Concluidas</string>
+    <string name="menu_instruçoes">Instruções</string>
+
+    <string name="action_salvar">Salvar</string>
+</resources>
