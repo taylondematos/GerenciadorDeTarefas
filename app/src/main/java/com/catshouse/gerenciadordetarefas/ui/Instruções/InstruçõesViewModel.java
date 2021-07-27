@@ -10,15 +10,17 @@ public class InstruçõesViewModel extends ViewModel {
 
     public InstruçõesViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("INSTRUÇÕES \n" + " \n" +
-                "Para adicionar uma tarefa deve-se pressionar o botão com o sinal de +. \n" +
-                "Após isso abrirá uma janela com os campos de adição.\n" +
-                "Depois de preenchidos os campos, deverá pressionar o botão salvar que estará na barra superior da janela \n"
+        mText.setValue("INSTRUCTIONS \n" + " \n" +
+                        "1 - To add a task one must press the button in the lower right corner with the '+' sign. \n  " + " \n" +
+                        "2 - A window will open with the fields to add the task. The tasks will be organized by the priority you " +
+                "choose in the priority bar. You will be assigned a red flag " +
+                "(if the priority is high), yellow (if the priority is medium) and green (if the priority is low).\n" + " \n" +
+                "3 - After filling out the fields, you must press the save button that will be in the upper bar of the window.\n"
 
-        + "Caso queira editar a tarefa salva, deverá dar um toque curto na tarefa desejada. \n" +
-                "Caso queira excluir, deverá dar um toque longo.\n" + "Para dar a tarefa como concluida, deverá pressionar o botão " +
-                "check\n" + "Então, caso concluída, a tarefa será encaminhada para a área de tarefas concluídas." +
-                "\n \n" + "Desenvolvido por Cats House Development.");
+                        +  " \n" + "If you want to edit the saved task, you will have to give a short tap on the desired task. \n" + " \n" +
+                        "If you want to delete the task, you must give it a long press.\n" +
+                 "Then, if completed, the task will be forwarded to the completed tasks area." + " \n" + " \n" +
+                        "\n" + "Developed by Cats House Development.\n");
 
     }
 

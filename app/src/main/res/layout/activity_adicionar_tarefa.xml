@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fundopapelamassadobranco"
     tools:context=".activity.AdicionarTarefaActivity">
 
   <TextView
@@ -13,7 +13,7 @@
       android:layout_height="wrap_content"
       android:layout_marginTop="20dp"
       android:fontFamily="sans-serif-black"
-      android:text="Adicione a Tarefa"
+      android:text="Add a Task"
       android:textSize="20sp"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
@@ -24,13 +24,11 @@
   <com.google.android.material.textfield.TextInputLayout
       android:id="@+id/textInputLayout"
       android:layout_width="0dp"
-      android:layout_height="wrap_content"
+      android:layout_height="50dp"
       android:layout_marginStart="16dp"
-      android:layout_marginLeft="16dp"
       android:layout_marginTop="30dp"
       android:layout_marginEnd="16dp"
-      android:layout_marginRight="16dp"
-      android:background="#FFFFFF"
+      android:background="@android:color/transparent"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
@@ -41,8 +39,8 @@
         android:id="@+id/TextInputEditTarefa"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/white"
-        android:hint="Tarefa" />
+        android:background="@android:color/transparent"
+        android:hint="Tap To Add Your Task Here" />
   </com.google.android.material.textfield.TextInputLayout>
 
   <SeekBar
@@ -67,9 +65,8 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_marginStart="16dp"
-      android:layout_marginLeft="16dp"
       android:fontFamily="sans-serif-black"
-      android:text="Prioridade: Deslize Abaixo"
+      android:text="Priority: Slide the bar below"
       android:textSize="18sp"
       app:layout_constraintBottom_toTopOf="@+id/seekBarPrioridade"
       app:layout_constraintEnd_toEndOf="parent"

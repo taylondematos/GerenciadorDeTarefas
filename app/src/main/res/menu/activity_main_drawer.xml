@@ -9,11 +9,20 @@
             android:icon="?attr/actionModePasteDrawable"
             android:title="@string/menu_tarefas_abertas"
             android:iconTint="@color/black"/>
+
+
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_baseline_checkpequeno"
             android:title="@string/menu_tarefas_concluidas"
             android:iconTint="@color/black"/>
+
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_divider">
+
+
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@android:drawable/ic_dialog_alert"

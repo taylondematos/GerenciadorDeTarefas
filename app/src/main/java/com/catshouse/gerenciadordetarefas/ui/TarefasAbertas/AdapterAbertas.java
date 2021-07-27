@@ -127,6 +127,7 @@ public class AdapterAbertas extends RecyclerView.Adapter<AdapterAbertas.MyViewHo
             }
         });
 
+       //  android:theme="@style/Theme.GerenciadorDeTarefas.AppBarOverlay"
         holder.tarefa.setText(nomeDatarefa);
         holder.prioriadeDaTarefa.setText("Prioridade: " + prioridadeTarefa);
 
@@ -134,14 +135,14 @@ public class AdapterAbertas extends RecyclerView.Adapter<AdapterAbertas.MyViewHo
         //A DEFINIÇÃO DAS BANDEIRAS
         //COLOQUEI UMA QUARTA OPÇÃO PARA CASO QUEIRA COLOCAR OUTRA BANDEIRA
         if (tarefa.getPrioridadeTarefa() >= 8){
-            holder.imagemDaTarefa.setImageResource(R.drawable.ic_baseline_flag_red);
+            holder.imagemDaTarefa.setImageResource(R.drawable.fitavermelhapng);
 
         }else if (tarefa.getPrioridadeTarefa()>= 5 && tarefa.getPrioridadeTarefa() <=7){
-            holder.imagemDaTarefa.setImageResource(R.drawable.ic_baseline_flag_yellow);
+            holder.imagemDaTarefa.setImageResource(R.drawable.fitaamarelapng);
         }else if (tarefa.getPrioridadeTarefa()>= 2 && tarefa.getPrioridadeTarefa() <=4){
-            holder.imagemDaTarefa.setImageResource(R.drawable.ic_baseline_flag_green);
+            holder.imagemDaTarefa.setImageResource(R.drawable.fitaverdepng);
         }else{
-            holder.imagemDaTarefa.setImageResource(R.drawable.ic_baseline_flag_green);
+            holder.imagemDaTarefa.setImageResource(R.drawable.fitaverdepng);
         }
 
 

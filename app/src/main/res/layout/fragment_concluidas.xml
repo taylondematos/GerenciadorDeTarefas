@@ -10,5 +10,6 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewConcluidas"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:background="@drawable/fundomadeira3" />
 </LinearLayout>

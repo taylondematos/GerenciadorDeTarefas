@@ -35,7 +35,7 @@ public class AdicionarTarefaActivity extends AppCompatActivity {
         entradaPrioridades.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                prioridadeShow.setText("Prioridade: " + Integer.toString(entradaPrioridades.getProgress()));
+                prioridadeShow.setText("Priority level: " + Integer.toString(entradaPrioridades.getProgress()));
             }
 
             @Override
